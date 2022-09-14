@@ -1,0 +1,16 @@
+.check-container {
+ background-color: whitesmoke;
+ margin-top: 2em;
+}
+
+.pic {
+  display: none;
+}
+
+.pic2 {
+  display: none;
+}
+
+#button2 {
+  display: none;
+}

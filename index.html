@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -15,15 +15,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Enter Pin</label>
-        <input type="integer" class="form-control" id="digit" placeholder="height in mteres">
-        <p id="heightx"></p>
-
-        <input  onclick="weight()" type="submit" />
-        <p >You burn <span id="myWeight"></span> calories per minutes</p>
-
+    <div class="container check-container">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Enter Pin</label>
+                <input type="integer" class="form-control" id="digit" placeholder="Enter Pin">
+                <p id="heightx"></p>
+        
+                <input  onclick="weight(); display(); reset()" type="submit" id="button"/>
+                <p >You burn <span id="myWeight"></span> calories per minutes</p>
+                <!-- <input  onclick="display()" type="submit" /> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="media/22.04.22_BlinkerDirection_Export_Master-13.png" id="pic" class="pic" alt="">
+                            <img src="media/download.png" id="pic2" class="pic" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button onclick="refreshPage()" id="button2">"Try Again</button>
+            </div>
+        </div>
     </div>
+  
     <script type="text/javascript" src="file.js"></script>
 </body>
 </html>
