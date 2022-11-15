@@ -3,14 +3,45 @@
  margin-top: 2em;
 }
 
-.pic {
+#pic {
   display: none;
 }
 
-.pic2 {
+#pic2 {
   display: none;
 }
 
 #button2 {
   display: none;
 }
+
+.pic {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+}
+
+#button {
+  margin-top: 10px;
+  margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+    .check-container {
+      margin-top: 10px;
+      margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .row1 {
+      margin-top: 10px;
+      margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }

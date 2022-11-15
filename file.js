@@ -1,5 +1,5 @@
 
-function weight() {
+function pinCheck() {
     let kg = (document.getElementById("digit").value)
     
     if (!isNaN(kg) && ( kg.length === 4 || kg.length === 6) )  { document.getElementById('pic').style.display = 'block'  && (document.getElementById('button').style.display = 'none') && (document.getElementById('button2').style.display = 'block')} 
